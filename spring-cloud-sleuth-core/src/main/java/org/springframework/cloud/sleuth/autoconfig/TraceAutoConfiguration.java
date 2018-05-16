@@ -156,4 +156,5 @@ public class TraceAutoConfiguration {
 	CurrentSpanCustomizer spanCustomizer(Tracing tracing) {
 		return CurrentSpanCustomizer.create(tracing);
 	}
+
 }

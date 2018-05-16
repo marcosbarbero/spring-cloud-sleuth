@@ -20,7 +20,8 @@ org.springframework.cloud.sleuth.instrument.zuul.TraceZuulAutoConfiguration,\
 org.springframework.cloud.sleuth.instrument.messaging.TraceMessagingAutoConfiguration,\
 org.springframework.cloud.sleuth.instrument.messaging.TraceSpringIntegrationAutoConfiguration,\
 org.springframework.cloud.sleuth.instrument.messaging.websocket.TraceWebSocketAutoConfiguration,\
-org.springframework.cloud.sleuth.instrument.opentracing.OpentracingAutoConfiguration
+org.springframework.cloud.sleuth.instrument.opentracing.OpentracingAutoConfiguration,\
+org.springframework.cloud.sleuth.instrument.grpc.GrpcAutoConfiguration
 
 # Environment Post Processor
 org.springframework.boot.env.EnvironmentPostProcessor=\
